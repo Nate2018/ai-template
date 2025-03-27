@@ -35,7 +35,7 @@ Then copy the URL and replace `GITHUB_RAW_URL` in this code with your URL:
   <title>Classroom</title>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      const main = "https://raw.githubusercontent.com/Nate2018/ai-template/refs/heads/main/index.html";
+      const main = "https://raw.githubusercontent.com/Nate2018/ai-part-2-test/refs/heads/main/index.html";
       const fallback = "https://cdn.jsdelivr.net/gh/GITHUB_USERNAME/REPO_NAME";
 
       fetch(main)
